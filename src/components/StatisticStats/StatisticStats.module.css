@@ -1,0 +1,44 @@
+.statItem {
+text-align: center; 
+
+ width: 100%;
+ height: 90px; 
+
+margin: 0px;
+background-color: rebeccapurple;
+margin-right: 4px;
+
+
+}
+.statItem:last-child {
+    margin-right: 0px;
+}
+
+.statItem:nth-child(3n + 1) {
+    background-color: orange;
+}
+.statItem:nth-child(3n + 2) {
+   background-color: chartreuse;
+}
+.statItem:nth-child(4n + 1) {
+ background-color: aqua;
+}
+.statItem:nth-child(6n + 1) {
+   background-color: cornflowerblue;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px auto 0px; */
+    padding: 13px;
+    font-size: 16px;
+    color: white;
+}
+.percentage {
+
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+}
