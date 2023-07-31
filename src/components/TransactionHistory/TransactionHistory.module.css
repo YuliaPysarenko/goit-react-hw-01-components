@@ -21,3 +21,12 @@
 .name:nth-child(2n) {
     background-color: cadetblue;
 }
+/* ///// */
+
+.data {
+    padding: 10px;
+}
+
+.tableBody:nth-child(2n) {
+    background-color: honeydew;
+}
